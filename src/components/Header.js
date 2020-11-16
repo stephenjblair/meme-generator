@@ -1,9 +1,10 @@
 import React from 'react';
+import TrollFace from '../Trollface.png';
 
 const Header  = () => {
     return (
         <header>
-            <img src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" alt="Problem?"/>
+            <img src={TrollFace} alt="Problem?"/>
             <p>Meme Generator</p>
         </header>
     )
